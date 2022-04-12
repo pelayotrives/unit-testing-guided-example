@@ -1,5 +1,11 @@
 function sum(a, b) {
-  return;
+
+  if ((a === undefined) || (b === undefined)) {
+    return 0;
+  }
+
+  let sumVar = a + b;
+  return sumVar;
 }
 
 function subtract(a, b) {
